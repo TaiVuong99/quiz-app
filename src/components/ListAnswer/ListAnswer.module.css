@@ -1,0 +1,36 @@
+.divColumn {
+    grid-column: span 12 / span 12
+}
+
+.divContent {
+    display: flex;
+    align-items: center;
+    width: 40rem;
+    height: 4rem;
+    font-weight: 500;
+    font-size: 1.125rem;
+    padding: 0 1rem;
+    margin: 0.75rem auto;
+    background-color: white;
+    border: solid 2px white;
+    border-radius: .375rem;
+}
+
+.divContent:hover{
+    cursor: pointer;
+    background-color: #312E81;
+}
+
+.divContentReview {
+    display: flex;
+    align-items: center;
+    width: 40rem;
+    height: 4rem;
+    font-weight: 500;
+    font-size: 1.125rem;
+    padding: 0 1rem;
+    margin: 0.75rem auto;
+    background-color: white;
+    border: solid 2px white;
+    border-radius: .375rem;
+}

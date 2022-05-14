@@ -1,0 +1,32 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 8px;
+}
+
+.App{
+  background-color: #A5B4FC;
+  width: 100vw;
+  min-height: 100vh;
+}
+
+button {
+  padding: 12px 32px;
+  font-size: medium;
+}
+
+button:disabled {
+  color: rgba(118, 118, 118, .5);
+  background-color: rgba(226, 226, 226, .5);
+  pointer-events: none;
+}
+
+@media (min-width: 720px){
+  html{
+    font-size: 16px;
+  }
+}

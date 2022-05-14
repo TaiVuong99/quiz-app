@@ -1,0 +1,41 @@
+.containerDiv {
+  padding-top: 20rem;
+  display: grid;
+}
+
+
+.divColumn {
+  grid-column: span 12 / span 12;
+}
+
+.h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  color: white;
+  text-align: center;
+  line-height: 1;
+  margin-bottom: 1.5rem;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.75rem 4rem;
+  margin: 0 auto;
+  font-size: 1.125rem;
+  font-weight: 700;
+  line-height: 1.75rem;
+  box-shadow: 0 0 4px 2px rgba(0, 0, 0, 0.1);
+  border: none;
+  border-radius: 0.5rem;
+  color: black;
+  background-color: #6ed5b7;
+}
+
+.button:hover {
+  cursor: pointer;
+  color: white;
+  background-color: rgb(16, 185, 129);
+  box-shadow: 0 0 4px 4px rgba(0, 0, 0, 0.1);
+}
