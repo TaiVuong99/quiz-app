@@ -9,6 +9,8 @@ function EndGame() {
   console.log('ahihi')
   const db = useContext(DataContext);
   const [listQuestion, listAnswer, setListAnswer] = db;
+  let abc
+  const [a, setA] = useState()
 
   //change to start game page
   const [startGame, setStartGame] = useState(false);
