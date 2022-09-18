@@ -17,15 +17,15 @@ function EndGame() {
   // change to review page
   const [review, setReview] = useState(false);
 
-  let score = 0;
+  // let score = 0;
 
-  const checkAnswer = () => {
-    listAnswer.forEach((answer) => {
-      if (answer == null) return;
-      if (answer.correct === true) score++;
-    });
-    return score;
-  };
+  // const checkAnswer = () => {
+  //   listAnswer.forEach((answer) => {
+  //     if (answer == null) return;
+  //     if (answer.correct === true) score++;
+  //   });
+  //   return score;
+  // };
 
   return (
     <>
