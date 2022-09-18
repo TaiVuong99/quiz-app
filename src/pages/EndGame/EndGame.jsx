@@ -7,7 +7,9 @@ import { DataContext } from "../../components/DataProvider/DataProvider";
 
 function EndGame() {
   const db = useContext(DataContext);
-  const [listQuestion, listAnswer, setListAnswer] = db;
+  // const [listQuestion, listAnswer, setListAnswer] = db;
+
+  console.log('hello')
 
   //change to start game page
   const [startGame, setStartGame] = useState(false);
