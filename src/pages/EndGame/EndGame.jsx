@@ -6,6 +6,7 @@ import styles from "./EndGame.module.css";
 import { DataContext } from "../../components/DataProvider/DataProvider";
 
 function EndGame() {
+  console.log('ahihi')
   const db = useContext(DataContext);
   const [listQuestion, listAnswer, setListAnswer] = db;
 
