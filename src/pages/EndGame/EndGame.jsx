@@ -6,8 +6,6 @@ import styles from "./EndGame.module.css";
 import { DataContext } from "../../components/DataProvider/DataProvider";
 
 function EndGame() {
-  const db = useContext(DataContext);
-  const [listQuestion, listAnswer, setListAnswer] = db;
 
   //change to start game page
   const [startGame, setStartGame] = useState(false);
