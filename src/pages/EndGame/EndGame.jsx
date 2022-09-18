@@ -6,26 +6,24 @@ import styles from "./EndGame.module.css";
 import { DataContext } from "../../components/DataProvider/DataProvider";
 
 function EndGame() {
-  console.log('ahihi')
   const db = useContext(DataContext);
   const [listQuestion, listAnswer, setListAnswer] = db;
-  let abc
-  const [a, setA] = useState()
+
 
   //change to start game page
   const [startGame, setStartGame] = useState(false);
   // change to review page
   const [review, setReview] = useState(false);
 
-  // let score = 0;
+  let score = 0;
 
-  // const checkAnswer = () => {
-  //   listAnswer.forEach((answer) => {
-  //     if (answer == null) return;
-  //     if (answer.correct === true) score++;
-  //   });
-  //   return score;
-  // };
+  const checkAnswer = () => {
+    listAnswer.forEach((answer) => {
+      if (answer == null) return;
+      if (answer.correct === true) score++;
+    });
+    return score;
+  };
 
   return (
     <>
